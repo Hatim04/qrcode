@@ -55,7 +55,7 @@ export default function QRCodeGenerator() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-100 to-purple-300 p-6">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-200 via-purple-300 to-pink-400 p-6">
       <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-lg">
         <h1 className="text-3xl font-semibold text-gray-800 text-center mb-6">
           UPI QR Code Generator
@@ -90,20 +90,25 @@ export default function QRCodeGenerator() {
 
         {/* Buttons */}
         <div className="flex flex-col gap-3">
-            <button
+          <button
             onClick={downloadQRCode}
-            className="w-full bg-gradient-to-br from-purple-100 to-blue-300 hover:from-purple-400 hover:to-blue-800 text-white py-3 rounded-lg font-medium transition duration-300 shadow-md"
-            >
+            className="w-full bg-gradient-to-r from-indigo-400 to-blue-600 hover:from-indigo-500 hover:to-blue-700 text-white py-3 rounded-lg font-medium transition duration-300 shadow-md"
+          >
             📥 Download QR Code
-            </button>
+          </button>
 
-            <button
-              onClick={shareQRCode}
-              className="w-full bg-gradient-to-br from-green-100 to-green-300 hover:from-green-400 hover:to-green-800 text-white py-3 rounded-lg font-medium transition duration-300 shadow-md"
-            >
-              📤 Share QR Code
-            </button>
+          <button
+            onClick={shareQRCode}
+            className="w-full bg-gradient-to-r from-green-400 to-teal-500 hover:from-green-500 hover:to-teal-600 text-white py-3 rounded-lg font-medium transition duration-300 shadow-md"
+          >
+            📤 Share QR Code
+          </button>
         </div>
+
+        {/* Small Note */}
+        <p className="text-gray-600 text-sm text-center mt-4">
+          Create and share custom amount UPI QR codes instantly.
+        </p>
       </div>
     </div>
   );

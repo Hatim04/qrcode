@@ -13,9 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "QR Code Generator | UPI Payments",
-  description: "Generate UPI QR codes quickly and share them easily.",
-  icons: "/favicon.ico",
+  title: "UPI QR Code Generator | Create & Share Payment QR Codes Easily",
+  description:
+    "Generate a secure UPI payment QR code by entering your UPI ID and amount. Easily download or share the QR code for seamless transactions.",
+  keywords: [
+    "UPI QR Code Generator",
+    "Create UPI QR Code",
+    "UPI Payment QR Code",
+    "Generate QR Code for UPI",
+    "UPI Payment Link Generator",
+    "UPI QR Code Download",
+    "UPI QR Share",
+    "QR Code for UPI Payments",
+    "Scan & Pay QR Code",
+    "Generate UPI QR Online",
+  ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
