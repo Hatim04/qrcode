@@ -110,7 +110,7 @@ export default function QRCodeGenerator() {
   Create and share custom amount UPI QR codes instantly.
 </p>
 <p className="text-gray-500 text-sm text-center mt-2">
-  Made with love by <a href="https://elitedesign-io.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Elite Design.io</a>
+  Made with  <span className="text-red-500">❤️</span> by <a href="https://elitedesign-io.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Elite Design.io</a>
 </p>
       </div>
     </div>
